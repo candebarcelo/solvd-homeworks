@@ -1,0 +1,26 @@
+{
+  "name": "cb-13-environments-and-preprocessors",
+  "version": "1.0.0",
+  "description": "task 13 for arg-laba-react",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "sass index.scss index.css",
+    "build": "parcel build ./index.css",
+    "start": "sass index.scss index.css --watch"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "environments",
+    "preprocessors",
+    "bundler"
+  ],
+  "author": "candebarcelo",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
